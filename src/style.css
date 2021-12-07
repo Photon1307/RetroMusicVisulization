@@ -1,0 +1,389 @@
+body{
+  position: absolute;
+  padding: 0 0 0 0 ;
+  text-align: center;
+  overflow: hidden;
+}
+
+#loading {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  opacity: 1;
+  background-color: #000000;
+  z-index: 4;
+}
+
+#loading-image {
+  text-align: center;
+  margin-top: 100px;
+  border-radius: 10px;
+  max-width: 30%;
+  height: auto;
+  z-index: 5;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.loadingTitle{
+  margin-top: 15px;
+  font-size: 40px;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.loadingSubTitle{
+  margin-top: 15px;
+  font-size: 25px;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.loading-bar{
+  text-align: center;
+  border-radius: 10px;
+  width: 200px;
+  height: auto;
+  z-index: 5;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+
+.jconfirm .jconfirm-box.jconfirm-type-blue {
+width: 400px;
+font-family: sans-serif;
+border-top: 2px solid white !important;  
+border-left: 2px solid white !important;
+border-right: 2px solid #393939 !important;
+border-bottom: 2px solid #393939 !important;
+border-radius: 0;
+background: #C0C0C0;
+}
+
+.jconfirm .jconfirm-box div.jconfirm-title-c {
+font-size: 16px;
+}
+
+.jconfirm .jconfirm-box {
+padding: 1px 1px;  
+}
+div.jconfirm-title-c {
+height: 30px;
+text-align: left;
+}
+
+.jconfirm-buttons {
+width: 100% !important;
+display: inline-block !important;
+outline: none !important;
+}
+.jconfirm-buttons > button{
+width: 90px !important;
+margin-left: 40px !important;
+margin-right: 40px !important;
+border-radius: 0 !important;
+background: #C0C0C0;
+border-top: 2px solid white !important;
+border-left: 2px solid white !important;
+border-right: 2px solid #494949 !important;
+border-bottom: 2px solid #494949 !important;
+outline: none !important;
+
+}
+.jconfirm-buttons > button:active{
+border-top: 2px solid #494949 !important;
+border-left: 2px solid #494949 !important;
+border-right: 2px solid white !important;
+border-bottom: 2px solid white !important;
+outline: none !important;
+
+}
+
+
+.jconfirm-content-pane {
+word-break: break-word;
+background: #C0C0C0;
+line-height: 30px;
+}
+
+.jconfirm-title {
+font-size: 12px;
+margin-top: 5px;
+margin-left: 15px;
+}
+
+.jconfirm-content {
+font-size: 16px;
+background: #C0C0C0;
+margin-left: 15px;
+margin-right: 15px;
+padding-top: 20px;
+padding-bottom: 0px;
+}
+
+.jconfirm-title-c {
+color: white;
+background-color: rgb(0, 0, 112);
+}
+
+
+
+
+#c {
+position: relative;
+}
+
+.MediaPlayerContainer{
+  position: absolute;
+  width: 400px;
+  font-family: sans-serif;
+  border-top: 2px solid white;  
+  border-left: 2px solid white ;
+  border-right: 2px solid #393939 ;
+  border-bottom: 2px solid #393939 ;
+  border-radius: 0;
+  background: #C0C0C0;
+  z-index: 1;
+}
+
+.box-title{
+  text-align: left;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: rgb(0, 0, 112);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  margin-left: 1px;
+  margin-right: 2px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.PlayButton{
+  width: 90px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 0;
+  background: #C0C0C0;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid #494949;
+  border-bottom: 2px solid #494949;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  outline: none;
+  }
+
+  .PlayButton:active{
+    border-top: 2px solid #494949;
+    border-left: 2px solid #494949;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    outline: none;
+  }
+
+.SongTitle{
+  color:#393939; 
+  font-family: sans-serif; 
+  font-weight:bold;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.currentTime{
+  display:inline;
+  text-align:left;
+  font-weight:bold;
+  margin-left: 20px;
+  margin-right: 20px;
+  color:#393939; 
+  font-family: sans-serif;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.durationTime{
+  display: inline;
+  text-align: right;
+  margin-right  : 20px;
+  margin-left:20px;
+  color:#393939; 
+  font-family: sans-serif;
+  font-weight:bold;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#progress-bar{
+  -webkit-appearance: none;
+  appearance: none;
+  height: 25px;
+  background: #C0C0C0;
+  width: 170pt;
+  bottom: 5%;
+  left: 17%;
+  border-top: 2px solid #494949;
+  border-left: 2px solid #494949;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;  
+  outline: none;
+}
+
+#progress-bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  margin-left: 0px;
+  height: 30px;
+  width: 12px;
+  border: 0;
+  background: #c0c0c0;
+  cursor: pointer;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid #494949;
+  border-bottom: 2px solid #494949;  
+}
+
+.MicContainer{
+  position: absolute;
+  right:0px;
+  width: 400px;
+  font-family: sans-serif;
+  border-top: 2px solid white;  
+  border-left: 2px solid white ;
+  border-right: 2px solid #393939 ;
+  border-bottom: 2px solid #393939 ;
+  border-radius: 0;
+  background: #C0C0C0;
+  z-index: 1;
+}
+
+.MicTitle{
+  text-align: left;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: rgb(0, 0, 112);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  margin-left: 1px;
+  margin-right: 2px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.MicButton{
+  width: 200px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 0;
+  background: #C0C0C0;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid #494949;
+  border-bottom: 2px solid #494949;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  outline: none;
+  }
+
+  .MicButton:active{
+    border-top: 2px solid #494949;
+    border-left: 2px solid #494949;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    outline: none;
+  }
+
+  .DragContainer{
+    position: absolute;
+    top:120px;
+    right:0px;
+    width: 400px;
+    font-family: sans-serif;
+    border-top: 2px solid white;  
+    border-left: 2px solid white ;
+    border-right: 2px solid #393939 ;
+    border-bottom: 2px solid #393939 ;
+    border-radius: 0;
+    background: #C0C0C0;
+    z-index: 1;
+  }
+
+  .DragTitle{
+    text-align: left;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(0, 0, 112);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    margin-left: 1px;
+    margin-right: 2px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .DragText{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+
+ 
