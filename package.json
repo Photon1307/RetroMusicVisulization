@@ -7,6 +7,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "three": "^0.135.0",
     "vue": "^3.2.23"
   },
